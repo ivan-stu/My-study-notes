@@ -63,6 +63,12 @@
         2、conda create -n 环境名称  python=版本号
         3、conda activate  环境名称 ：激活这个环境
         4、conda deactivate ：退出这个环境
+
+        5、删除虚拟环境
+        6、conda remove -n your_env_name --all
+            或：conda env remove --name your_env_name
+        7、删除虚拟环境中的包：
+            使用命令conda remove --name $your_env_name  $package_name（包名）
     其他conda命令：
         conda env list ：查看所有虚拟环境
         conda info -e  ：也是查看所有虚拟环境
@@ -172,7 +178,7 @@
 
 8、pytorch的安装
 
-
+    官网，适配CUDA10.1的安装命令。
 
 
 
